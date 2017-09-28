@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.box {
+  width: 1080px;
+  height: 1920px;
+  margin: 0 auto;
+  background: url("../img/2.png") no-repeat;
+  background-size: cover; }
+  .box .top {
+    padding-top: 30px;
+    text-align: center;
+    line-height: 122px;
+    color: #fff;
+    background: url("../img/5.png") no-repeat center 30px; }
+  .box .top p span {
+    font-size: 50px; }
+    .box .top p span:nth-child(1) {
+      margin-right: 50px;
+      color: #2cc1ff; }
+    .box .top p span:nth-child(2) {
+      color: #08cb7f; }
+  .box .main {
+    width: 100%;
+    height: 642px;
+    margin-top: 18px;
+    position: relative; }
+    .box .main > p {
+      width: 216px;
+      height: 216px;
+      border-radius: 50%;
+      overflow: hidden;
+      position: absolute;
+      border: 10px solid rgba(207, 211, 215, 0.5); }
+      .box .main > p:nth-of-type(1) {
+        top: 5px;
+        left: 272px; }
+      .box .main > p:nth-of-type(2) {
+        top: 124px;
+        left: 40px; }
+      .box .main > p:nth-of-type(3) {
+        top: 387px;
+        left: 124px; }
+    .box .main .one {
+      width: 520px;
+      position: absolute;
+      right: 153px;
+      color: #fff;
+      bottom: 60px; }
+      .box .main .one p {
+        text-indent: 2em;
+        line-height: 30px;
+        font-size: 19px; }
+      .box .main .one h3 {
+        font-size: 50px;
+        margin-left: 368px; }
+      .box .main .one small {
+        margin: 6px 0;
+        display: block;
+        margin-left: 385px; }
+  .box .warp .two {
+    width: 856px;
+    height: 319px;
+    margin-left: 118px;
+    position: relative; }
+    .box .warp .two:nth-child(1), .box .warp .two:nth-child(3) {
+      background: url("../img/4.png") no-repeat 100%; }
+      .box .warp .two:nth-child(1) p, .box .warp .two:nth-child(3) p {
+        position: absolute;
+        width: 216px;
+        height: 216px;
+        border-radius: 50%;
+        overflow: hidden;
+        right: 54px;
+        top: 53px; }
+      .box .warp .two:nth-child(1) small, .box .warp .two:nth-child(3) small {
+        position: absolute;
+        top: 60px;
+        left: 56px;
+        font-size: 20px;
+        color: #fff; }
+      .box .warp .two:nth-child(1) h2, .box .warp .two:nth-child(3) h2 {
+        padding-top: 122px;
+        margin-left: 276px;
+        color: #fff; }
+      .box .warp .two:nth-child(1) span, .box .warp .two:nth-child(3) span {
+        margin-left: 178px;
+        margin-top: 20px;
+        line-height: 60px;
+        display: inline-block !important;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.5);
+        height: 60px;
+        border-radius: 35px;
+        width: 268px; }
+        .box .warp .two:nth-child(1) span o:nth-child(1), .box .warp .two:nth-child(3) span o:nth-child(1) {
+          margin-left: 55px;
+          padding-right: 16px;
+          border-right: 1px solid #ccc; }
+        .box .warp .two:nth-child(1) span o:nth-child(2), .box .warp .two:nth-child(3) span o:nth-child(2) {
+          margin-left: 10px; }
+    .box .warp .two:nth-child(2) {
+      margin-top: 45px;
+      margin-left: 68px;
+      background: url("../img/3.png"); }
+      .box .warp .two:nth-child(2) p {
+        position: absolute;
+        width: 216px;
+        height: 216px;
+        border-radius: 50%;
+        overflow: hidden;
+        left: 54px;
+        top: 55px; }
+      .box .warp .two:nth-child(2) small {
+        position: absolute;
+        top: 62px;
+        right: 56px;
+        font-size: 20px;
+        color: #fff; }
+      .box .warp .two:nth-child(2) h2 {
+        padding-top: 122px;
+        margin-left: 510px;
+        color: #fff; }
+      .box .warp .two:nth-child(2) span {
+        margin-left: 475px;
+        margin-top: 45px;
+        display: inline-block;
+        color: #fff; }
+        .box .warp .two:nth-child(2) span o:nth-child(1) {
+          margin-right: 10px; }
+        .box .warp .two:nth-child(2) span o:nth-child(2) {
+          margin-left: 10px; }
+    .box .warp .two:nth-child(3) {
+      margin-top: 60px; }
